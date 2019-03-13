@@ -3,7 +3,7 @@
 	<h2 class="text-info">Clientes</h2>
 		<table class="table table-hover table-condensed table-bordered">
 		<a href="{{url('/AgregarCliente')}}" class="btn btn-info btn-lg active">Agregar nuevo Cliente
-		<i class="fa fa-plus"></i></a>
+		<i class="fa fa-plus"></i></a> 
             <br>
             <br>
 			<thead class="p-3 mb-2 bg-info text-white">
@@ -12,6 +12,7 @@
 				<td>Cod_Pago</td>
 				<td>Cantidad</td>
 				<td>Fecha_tentativa</td>
+				<td>Abono</td>
 				<td>Editar</td>
 				<td>Eliminar</td>
 			</thead>
@@ -21,6 +22,9 @@
 				<td></td>
 				<td></td>
 				<td></td>
+				<td>
+				<a href="{{url('/Abono')}}" class="btn btn-success"><i class="fas fa-dollar-sign"></i></a>
+				</td>
 				<td>
 				<a href="{{url('/EditarCliente')}}" class="btn btn-warning"><i class="fas fa-user-edit"></i></a>
 				</td>

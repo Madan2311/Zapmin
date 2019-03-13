@@ -45,3 +45,4 @@ Route::get('/EditarPedido', 'EditarController@pedido');
 Route::get('/EditarColor', 'EditarController@color');
 Route::get('/EditarEstilo', 'EditarController@estilo');
 Route::get('/EditarTalla', 'EditarController@talla');
+Route::get('/Abono', 'AgregarController@abono');

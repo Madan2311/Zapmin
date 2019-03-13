@@ -31,6 +31,10 @@ class AgregarController extends Controller
     {
         return view('Talla.AgregarTalla');
     }
+    public function abono()
+    {
+        return view('Clientes.Abono');
+    }
 
     /**
      * Show the form for creating a new resource.
